@@ -1,0 +1,107 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #dbe8f5);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #4a90e2;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1rem;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Bucket List Section */
+  .bucket-list {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bucket-list h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #4a90e2;
+  }
+  
+  /* List Styling */
+  .bucket-list ul {
+    list-style: none;
+  }
+  
+  .bucket-list li {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bucket-list li span {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .bucket-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4a90e2;
+    color: white;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    .bucket-list li {
+      font-size: 1rem;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+  
+  .bucket-list li:hover {
+    transform: scale(1.02);
+    background: #f0f4f8;
+    transition: 0.3s;
+  }  
